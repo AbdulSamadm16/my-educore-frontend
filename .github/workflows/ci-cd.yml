@@ -54,7 +54,7 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd ~/educore
+            cd ~
             sudo docker compose pull frontend
             sudo docker compose up -d --no-deps --force-recreate frontend
             sudo docker image prune -f
