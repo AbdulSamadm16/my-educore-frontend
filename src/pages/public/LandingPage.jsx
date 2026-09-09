@@ -171,7 +171,7 @@ export default function LandingPage() {
             >
               Master Your Craft with <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-emerald-400 to-blue-400 animate-gradient-x">
-                Educore LMS
+                Educore LMS 2.0 🚀
               </span>
             </motion.h1>
             
